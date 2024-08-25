@@ -90,16 +90,19 @@ section::after {
   .clock {
     height: auto;
     width: 200px;
-    padding: 10px 0;
+    padding: 20px 0;
   }
   .clock .container {
     flex-direction: column;
+    gap: 20px;
   }
   .clock .container h2 {
     font-size: 4em;
   }
   .clock .container span {
-    margin-top: 10px;
     margin-left: 0;
+  }
+  .clock .container .dot{
+    display: none;
   }
 }
